@@ -23,7 +23,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3 # 당신의 저장소에 접근할 수 있게 한다(체크아웃한다). 그래야 저장소의 yaml, 도커파일에 접근하겟죠.
+      - uses: actions/checkout@v4 # 당신의 저장소에 접근할 수 있게 한다(체크아웃한다). 그래야 저장소의 yaml, 도커파일에 접근하겟죠.
 
       # Runs a single command using the runners shell
       - name: Run a one-line script # name 잘쓰기. 인간이 이해할 수 있게 (Semantic) 하게 사용하는 것이 중요합니다. code convention 지키기.
